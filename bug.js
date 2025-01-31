@@ -1,0 +1,1 @@
+The Firebase SDK's `onAuthStateChanged` listener may not trigger if the user's authentication state changes due to a silent refresh token operation. This can lead to situations where the application's UI doesn't reflect the user's actual authentication status, especially after an extended period of inactivity.
